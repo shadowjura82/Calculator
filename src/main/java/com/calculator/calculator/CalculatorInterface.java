@@ -5,11 +5,11 @@ public interface CalculatorInterface {
 
     String Wellcome();
 
-    String Plus(Integer num1, Integer num2);
+    Integer Plus(Integer num1, Integer num2);
 
-    String Minus(Integer num1, Integer num2);
+    Integer Minus(Integer num1, Integer num2);
 
-    String Multiply(Integer num1, Integer num2);
+    Integer Multiply(Integer num1, Integer num2);
 
-    String divide(Double num1, Double num2);
+    Double divide(Double num1, Double num2) throws IllegalAccessException;
 }
